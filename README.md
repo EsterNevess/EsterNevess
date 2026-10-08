@@ -7,7 +7,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/esterneves"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:ester.charm@hotmail.com"><img src="https://img.shields.io/badge/E--mail-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="E-mail"></a>
-  <img src="https://img.shields.io/badge/Disponível-home%20office-2EA44F?style=for-the-badge" alt="Disponível para home office">
 </p>
 
 ---
