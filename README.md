@@ -16,6 +16,7 @@
 Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e Spring Boot e interfaces em React, então sei **como o sistema é feito, o que pode quebrar e onde investigar**. Hoje meu foco é **qualidade de software e automação de testes**.
 
 - 🧪 Automação de testes de **API** (pytest + requests) e **Web** (Playwright + Page Object Model)
+- 📝 Teste manual e exploratório: **plano de teste, casos de teste e relatório de bugs** com severidade e evidência
 - 🔁 Integração contínua com **GitHub Actions**
 - 🤖 Residência em **IA Generativa e RAG** (Instituto ECOA / PUC-Rio)
 - ⚖️ Bacharel em Direito: leitura crítica de requisitos, atenção a detalhes e conhecimento de **LGPD**
@@ -28,6 +29,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 | Projeto | O que é | Tecnologias |
 |---|---|---|
 | 🧪 [**QA Automation – ServeRest**](https://github.com/EsterNevess/qa-automation-serverest) | 35 testes automatizados de API e Web, com validação de contrato, Page Object Model e CI | Python · pytest · Playwright · GitHub Actions |
+| 🐞 [**Plano de Teste e Relatório de Bugs – ServeRest**](https://github.com/EsterNevess/qa-plano-de-testes-bugs) | Plano de teste, 30 casos executados e 10 bugs reais registrados como issues, com severidade, passos e evidência | Teste manual de API · Casos de teste · Bug report · GitHub Issues |
 | 🤖 [**VendeFácil – Assistente RAG**](https://github.com/NevesFregulha/rag-vendefacil-grupo07-neves-fregulha) | Assistente de IA com busca híbrida, guardrails de LGPD e 130 testes automatizados | Python · LangChain · FAISS · pytest |
 | 📋 [**Tarefiz**](https://github.com/EsterNevess/tarefiz-portfolio) | Sistema de gestão de tarefas para uma demanda real da Alterdata (Residência SERRATEC) | React · Vite · JavaScript |
 
