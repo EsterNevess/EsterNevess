@@ -30,6 +30,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 |---|---|---|
 | 🧪 [**QA Automation – ServeRest**](https://github.com/EsterNevess/qa-automation-serverest) | 35 testes automatizados de API e Web, com validação de contrato, Page Object Model e CI | Python · pytest · Playwright · GitHub Actions |
 | 🐞 [**Plano de Teste e Relatório de Bugs – ServeRest**](https://github.com/EsterNevess/qa-plano-de-testes-bugs) | Plano de teste, 30 casos executados e 10 bugs reais registrados como issues, com severidade, passos e evidência | Teste manual de API · Casos de teste · Bug report · GitHub Issues |
+| 🧾 [**Teste Manual de E-commerce – Saucedemo**](https://github.com/EsterNevess/qa-saucedemo-teste-manual) | 25 cenários e casos de teste (Gherkin e passo a passo), análise de riscos, sugestão de automação e bugs registrados como issues | Teste manual de interface · Gherkin · Casos de teste · GitHub Issues |
 | 🤖 [**VendeFácil – Assistente RAG**](https://github.com/NevesFregulha/rag-vendefacil-grupo07-neves-fregulha) | Assistente de IA com busca híbrida, guardrails de LGPD e 130 testes automatizados | Python · LangChain · FAISS · pytest |
 | 📋 [**Tarefiz**](https://github.com/EsterNevess/tarefiz-portfolio) | Sistema de gestão de tarefas para uma demanda real da Alterdata (Residência SERRATEC) | React · Vite · JavaScript |
 
