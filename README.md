@@ -16,6 +16,7 @@
 Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e Spring Boot e interfaces em React, então sei **como o sistema é feito, o que pode quebrar e onde investigar**. Hoje meu foco é **qualidade de software e automação de testes**.
 
 - 🧪 Automação de testes de **API** (pytest + requests) e **Web** (Playwright + Page Object Model)
+- 🥒 **BDD** com pytest-bdd: cenários em Gherkin escritos em português, que o negócio lê e a automação executa
 - 📝 Teste manual e exploratório: **plano de teste, casos de teste e relatório de bugs** com severidade e evidência
 - 🔁 Integração contínua com **GitHub Actions**
 - 🤖 Residência em **IA Generativa e RAG** (Instituto ECOA / PUC-Rio)
