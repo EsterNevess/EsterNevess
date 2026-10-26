@@ -34,6 +34,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 | 🧾 [**Teste Manual de E-commerce – Saucedemo**](https://github.com/EsterNevess/qa-saucedemo-teste-manual) | 25 cenários e casos de teste (Gherkin e passo a passo), análise de riscos, sugestão de automação e bugs registrados como issues | Teste manual de interface · Gherkin · Casos de teste · GitHub Issues |
 | 🤖 [**VendeFácil – Assistente RAG**](https://github.com/EsterNevess/rag-vendefacil) | Camada de qualidade de um assistente de IA: **130 testes automatizados**, benchmark de 24 casos com rubrica de aceitação, teste adversarial de vazamento de credenciais e teste de regressão para dado sensível. Investigar um defeito na própria validação levou o resultado de 58,3% para **71,9%** | Python · pytest · LangChain · FAISS |
 | 📋 [**Tarefiz**](https://github.com/EsterNevess/tarefiz-portfolio) | Sistema de gestão de tarefas para uma demanda real da Alterdata (Residência SERRATEC) | React · Vite · JavaScript |
+| 📐 [**RAG Jurídico – Arquitetura**](https://github.com/EsterNevess/rag-juridico-arquitetura) | **Projeto de arquitetura, sem código:** dois sistemas RAG jurídicos (due diligence de M&A e jurisprudência), com chunking por cláusula e por seção, comparação de modelos de embedding e análise de quando RAG **não** é a resposta | Arquitetura · RAG · Embeddings |
 
 ---
 
