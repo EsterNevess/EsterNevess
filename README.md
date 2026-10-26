@@ -19,6 +19,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 - 📝 Teste manual e exploratório: **plano de teste, casos de teste e relatório de bugs** com severidade e evidência
 - 🔁 Integração contínua com **GitHub Actions**
 - 🤖 Residência em **IA Generativa e RAG** (Instituto ECOA / PUC-Rio)
+- 🎯 **Teste e avaliação de sistemas de IA**: benchmark com rubrica de aceitação, avaliação separada de recuperação e geração, e casos adversariais de vazamento de dado
 - ⚖️ Bacharel em Direito: leitura crítica de requisitos, atenção a detalhes e conhecimento de **LGPD**
 - 🎓 Estudante de **Análise e Desenvolvimento de Sistemas**
 
@@ -31,7 +32,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 | 🧪 [**QA Automation – ServeRest**](https://github.com/EsterNevess/qa-automation-serverest) | 35 testes automatizados de API e Web, com validação de contrato, Page Object Model e CI | Python · pytest · Playwright · GitHub Actions |
 | 🐞 [**Plano de Teste e Relatório de Bugs – ServeRest**](https://github.com/EsterNevess/qa-plano-de-testes-bugs) | Plano de teste, 30 casos executados e 10 bugs reais registrados como issues, com severidade, passos e evidência | Teste manual de API · Casos de teste · Bug report · GitHub Issues |
 | 🧾 [**Teste Manual de E-commerce – Saucedemo**](https://github.com/EsterNevess/qa-saucedemo-teste-manual) | 25 cenários e casos de teste (Gherkin e passo a passo), análise de riscos, sugestão de automação e bugs registrados como issues | Teste manual de interface · Gherkin · Casos de teste · GitHub Issues |
-| 🤖 [**VendeFácil – Assistente RAG**](https://github.com/NevesFregulha/rag-vendefacil-grupo07-neves-fregulha) | Assistente de IA com busca híbrida, guardrails de LGPD e 130 testes automatizados | Python · LangChain · FAISS · pytest |
+| 🤖 [**VendeFácil – Assistente RAG**](https://github.com/EsterNevess/rag-vendefacil) | Camada de qualidade de um assistente de IA: **130 testes automatizados**, benchmark de 24 casos com rubrica de aceitação, teste adversarial de vazamento de credenciais e teste de regressão para dado sensível. Investigar um defeito na própria validação levou o resultado de 58,3% para **71,9%** | Python · pytest · LangChain · FAISS |
 | 📋 [**Tarefiz**](https://github.com/EsterNevess/tarefiz-portfolio) | Sistema de gestão de tarefas para uma demanda real da Alterdata (Residência SERRATEC) | React · Vite · JavaScript |
 
 ---
