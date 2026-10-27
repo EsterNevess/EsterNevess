@@ -17,6 +17,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 
 - 🧪 Automação de testes de **API** (pytest + requests) e **Web** (Playwright + Page Object Model)
 - 🥒 **BDD** com pytest-bdd: cenários em Gherkin escritos em português, que o negócio lê e a automação executa
+- ⚡ **Testes de performance** com k6: fumaça, carga e estresse, com limites de aceitação que fazem o CI falhar quando estourados
 - 📝 Teste manual e exploratório: **plano de teste, casos de teste e relatório de bugs** com severidade e evidência
 - 🔁 Integração contínua com **GitHub Actions**
 - 🤖 Residência em **IA Generativa e RAG** (Instituto ECOA / PUC-Rio)
@@ -34,6 +35,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 | 🐞 [**Plano de Teste e Relatório de Bugs – ServeRest**](https://github.com/EsterNevess/qa-plano-de-testes-bugs) | Plano de teste, 30 casos executados e 10 bugs reais registrados como issues, com severidade, passos e evidência | Teste manual de API · Casos de teste · Bug report · GitHub Issues |
 | 🧾 [**Teste Manual de E-commerce – Saucedemo**](https://github.com/EsterNevess/qa-saucedemo-teste-manual) | 25 cenários e casos de teste (Gherkin e passo a passo), análise de riscos, sugestão de automação e bugs registrados como issues | Teste manual de interface · Gherkin · Casos de teste · GitHub Issues |
 | 🥒 [**BDD com pytest-bdd – Saucedemo**](https://github.com/EsterNevess/qa-bdd-saucedemo) | Os 13 cenários Gherkin acima, agora **executando**: o mesmo texto em português que o negócio lê é o que a automação roda. Page Object Model, evidência em print quando um cenário falha e CI | Python · pytest-bdd · Playwright · GitHub Actions |
+| ⚡ [**Performance com k6 – ServeRest**](https://github.com/EsterNevess/qa-performance-serverest) | Testes de fumaça, carga e estresse com limites de aceitação explícitos e métricas por operação. Carga de 10 usuários: 1.339 requisições, 0% de erro, p(95) de 6 ms. Estresse até 100 usuários: 123 req/s — e o README explica por que **não** achei o ponto de ruptura | k6 · JavaScript · GitHub Actions |
 | 🤖 [**VendeFácil – Assistente RAG**](https://github.com/EsterNevess/rag-vendefacil) | Camada de qualidade de um assistente de IA: **130 testes automatizados**, benchmark de 24 casos com rubrica de aceitação, teste adversarial de vazamento de credenciais e teste de regressão para dado sensível. Investigar um defeito na própria validação levou o resultado de 58,3% para **71,9%** | Python · pytest · LangChain · FAISS |
 | 📋 [**Tarefiz**](https://github.com/EsterNevess/tarefiz-portfolio) | Sistema de gestão de tarefas para uma demanda real da Alterdata (Residência SERRATEC) | React · Vite · JavaScript |
 | 📐 [**RAG Jurídico – Arquitetura**](https://github.com/EsterNevess/rag-juridico-arquitetura) | **Projeto de arquitetura, sem código:** dois sistemas RAG jurídicos (due diligence de M&A e jurisprudência), com chunking por cláusula e por seção, comparação de modelos de embedding e análise de quando RAG **não** é a resposta | Arquitetura · RAG · Embeddings |
@@ -50,6 +52,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Desenvolvimento**
