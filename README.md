@@ -18,6 +18,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 - 🧪 Automação de testes de **API** (pytest + requests) e **Web** (Playwright + Page Object Model)
 - 🥒 **BDD** com pytest-bdd: cenários em Gherkin escritos em português, que o negócio lê e a automação executa
 - ⚡ **Testes de performance** com k6: fumaça, carga e estresse, com limites de aceitação que fazem o CI falhar quando estourados
+- 📱 **Automação mobile** com Maestro: fluxos declarativos em YAML sobre app Android, executando em emulador no CI
 - 📊 **Relatórios públicos**: Allure e k6 publicados no GitHub Pages a cada execução, com histórico de tendência e evidência anexada nas falhas
 - 📝 Teste manual e exploratório: **plano de teste, casos de teste e relatório de bugs** com severidade e evidência
 - 🔁 Integração contínua com **GitHub Actions**
@@ -37,6 +38,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 | 🧾 [**Teste Manual de E-commerce – Saucedemo**](https://github.com/EsterNevess/qa-saucedemo-teste-manual) | 25 cenários e casos de teste (Gherkin e passo a passo), análise de riscos, sugestão de automação e bugs registrados como issues | Teste manual de interface · Gherkin · Casos de teste · GitHub Issues |
 | 🥒 [**BDD com pytest-bdd – Saucedemo**](https://github.com/EsterNevess/qa-bdd-saucedemo) | Os 13 cenários Gherkin acima, agora **executando**: o mesmo texto em português que o negócio lê é o que a automação roda. Page Object Model, evidência em print quando um cenário falha e CI · [📊 relatório Allure](https://esternevess.github.io/qa-bdd-saucedemo/) | Python · pytest-bdd · Playwright · GitHub Actions |
 | ⚡ [**Performance com k6 – ServeRest**](https://github.com/EsterNevess/qa-performance-serverest) | Testes de fumaça, carga e estresse com limites de aceitação explícitos e métricas por operação. Carga de 10 usuários: 1.339 requisições, 0% de erro, p(95) de 6 ms. Estresse até 100 usuários: 123 req/s — e o README explica por que **não** achei o ponto de ruptura · [📊 relatório](https://esternevess.github.io/qa-performance-serverest/) | k6 · JavaScript · GitHub Actions |
+| 📱 [**Automação mobile com Maestro**](https://github.com/EsterNevess/qa-mobile-maestro) | Testes de aplicativo Android nativo em fluxos declarativos de YAML, rodando em **emulador dentro do CI**: login válido, login inválido e carrinho. Os seletores saíram da leitura da fonte do app — no Android ele usa `accessibilityLabel`, não `testID` | Maestro · Android · YAML · GitHub Actions |
 | 🤖 [**VendeFácil – Assistente RAG**](https://github.com/EsterNevess/rag-vendefacil) | Camada de qualidade de um assistente de IA: **130 testes automatizados**, benchmark de 24 casos com rubrica de aceitação, teste adversarial de vazamento de credenciais e teste de regressão para dado sensível. Investigar um defeito na própria validação levou o resultado de 58,3% para **71,9%** | Python · pytest · LangChain · FAISS |
 | 📋 [**Tarefiz**](https://github.com/EsterNevess/tarefiz-portfolio) | Sistema de gestão de tarefas para uma demanda real da Alterdata (Residência SERRATEC) | React · Vite · JavaScript |
 | 📐 [**RAG Jurídico – Arquitetura**](https://github.com/EsterNevess/rag-juridico-arquitetura) | **Projeto de arquitetura, sem código:** dois sistemas RAG jurídicos (due diligence de M&A e jurisprudência), com chunking por cláusula e por seção, comparação de modelos de embedding e análise de quando RAG **não** é a resposta | Arquitetura · RAG · Embeddings |
@@ -50,6 +52,7 @@ Sou QA com base prática em desenvolvimento: já construí APIs REST em Java e S
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![pytest-bdd](https://img.shields.io/badge/pytest--bdd-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Maestro](https://img.shields.io/badge/Maestro-6C4CF1?style=for-the-badge&logo=android&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
